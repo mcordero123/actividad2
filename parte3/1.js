@@ -1,9 +1,13 @@
+// Función tradicional
+
 function edad(añoDeNacimiento, añoActual=2025) {
     return añoActual - añoDeNacimiento;
 }
 
 fechaNacimiento = Number(prompt("¿En qué año naciste?"));
 console.log("Función tradicidional: "+ edad(fechaNacimiento));
+
+// Función flecha
 
 let fechaNacimiento2 = (fechaNacimiento) => {
     return 2025 - fechaNacimiento;
